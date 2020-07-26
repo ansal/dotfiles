@@ -11,6 +11,8 @@ Plug 'airblade/vim-gitgutter'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'joshdick/onedark.vim'
 Plug 'vim-airline/vim-airline'
+Plug 'majutsushi/tagbar'
+Plug 'nvie/vim-flake8'
 
 " Plug end
 call plug#end()
@@ -47,6 +49,7 @@ set laststatus=2
 set showtabline=2
 set noshowmode
 set backspace=indent,eol,start
+set splitbelow splitright
 
 " Folding options
 set foldmethod=indent
@@ -62,9 +65,8 @@ imap <M-Right> <ESC><c-w>l
 imap <M-Left> <ESC><c-w>h
 imap <M-Up> <ESC><c-w>k
 imap <M-Down> <ESC><c-w>j
-
-" NERDTreeToggle mappings
 map <F5> :NERDTreeToggle<CR>
+nmap <F8> :TagbarToggle<CR>
 
 " Python related configs
 let python_highlight_all=1
