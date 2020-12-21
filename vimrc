@@ -9,7 +9,6 @@ Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'ryanoasis/vim-devicons'
 Plug 'airblade/vim-gitgutter'
 Plug 'ctrlpvim/ctrlp.vim'
-Plug 'joshdick/onedark.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'majutsushi/tagbar'
 Plug 'nvie/vim-flake8'
@@ -19,7 +18,6 @@ call plug#end()
 
 " Color scheme
 set termguicolors
-colorscheme onedark
 
 " Editor configs
 syntax enable
